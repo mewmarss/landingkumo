@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center justify-between sticky top-0 left-0 z-50 bg-gray-950">
+    <header className="px-4 lg:px-6 h-14 flex items-center justify-between sticky top-0 left-0 z-50 bg-gray-950/20 backdrop-blur-xl">
       <Link className="flex items-center justify-center" href="#">
         <Cloud className="h-10 w-10 text-purple-600" />
         <span className="ml-2 text-2xl font-bold text-purple-600">Kumo</span>
