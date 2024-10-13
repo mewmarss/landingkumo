@@ -1,13 +1,4 @@
-import {
-  Activity,
-  FileText,
-  Shield,
-  Smartphone,
-  Smile,
-  Users,
-  Video,
-  Zap,
-} from "lucide-react";
+import { Activity, FileText, Shield, Users, Zap } from "lucide-react";
 import Image from "next/image";
 
 const Features = () => {
