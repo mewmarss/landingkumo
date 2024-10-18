@@ -1,3 +1,8 @@
+"use client";
+
+import Link from "next/link";
+import { Typewriter } from "react-simple-typewriter";
+
 const Hero = () => {
   return (
     <div className="flex justify-between items-center">
@@ -8,10 +13,20 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center space-y-10 text-center h-[91.5vh]">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-            <span className="text-purple-600">Kumo</span>
+            <span className="text-orange-500">Kumo</span>
             <br />{" "}
             <span className="text-5xl font-medium">
-              A Real Time Chat Platform💭
+              <Typewriter
+                words={[
+                  "Chat effortlessly on Kumo!",
+                  "Connect with friends instantly",
+                  "Connect with your community",
+                ]}
+                loop={5}
+                cursor
+                cursorStyle="|"
+                typeSpeed={90}
+              />
             </span>
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
@@ -21,10 +36,13 @@ const Hero = () => {
           </p>
         </div>
         <div className="space-x-4">
-          <button className="bg-gray-800/60 p-3 rounded-lg hover:bg-gray-700 transition-colors">
+          <Link
+            href="https://kumochat.vercel.app"
+            className="bg-orange-500 shadow text-white p-2 px-3 rounded-lg hover:bg-gray-700 transition-colors"
+          >
             Get Started
-          </button>
-          <button className="bg-white text-black p-3 rounded-lg hover:bg-purple-600 hover:text-white transition-colors">
+          </Link>
+          <button className="bg-gray-200 shadow text-black p-2 px-3 rounded-lg hover:bg-orange-500 hover:text-white transition-colors">
             Learn More
           </button>
         </div>
