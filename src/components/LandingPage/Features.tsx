@@ -24,27 +24,27 @@ const Features = () => {
       </div>
       <div className="flex flex-col justify-center space-y-4">
         <h2 className="text-4xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-          Explore <span className="text-purple-600">Features</span>
+          Explore <span className="text-orange-500">Features</span>
         </h2>
         <ul className="grid gap-4 md:gap-6 text-2xl">
           <li className="flex items-center space-x-3">
-            <Users className="h-5 w-5 text-purple-600" />
+            <Users className="h-5 w-5 text-orange-500" />
             <span>Connect with Friends</span>
           </li>
           <li className="flex items-center space-x-3">
-            <Shield className="h-5 w-5 text-purple-600" />
+            <Shield className="h-5 w-5 text-orange-500" />
             <span>Secure and Reliable</span>
           </li>
           <li className="flex items-center space-x-3">
-            <Zap className="h-5 w-5 text-purple-600" />
+            <Zap className="h-5 w-5 text-orange-500" />
             <span>Instant Messaging</span>
           </li>
           <li className="flex items-center space-x-3">
-            <FileText className="h-5 w-5 text-purple-600" />
+            <FileText className="h-5 w-5 text-orange-500" />
             <span>File Sharing</span>
           </li>
           <li className="flex items-center space-x-3">
-            <Activity className="h-5 w-5 text-purple-600" />
+            <Activity className="h-5 w-5 text-orange-500" />
             <span>Online Status</span>
           </li>
         </ul>

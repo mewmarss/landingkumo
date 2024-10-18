@@ -5,7 +5,7 @@ import Navbar from "@/components/LandingPage/Navbar";
 
 export default function Home() {
   return (
-    <div className="bg-gray-950 text-white">
+    <div className="bg-gray-100">
       <Navbar />
       <Hero />
       <Features />
