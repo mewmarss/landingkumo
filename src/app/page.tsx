@@ -1,14 +1,14 @@
-import Features from "@/components/LandingPage/Features";
-import Footer from "@/components/LandingPage/Footer";
-import Hero from "@/components/LandingPage/Hero";
-import Navbar from "@/components/LandingPage/Navbar";
+import Footer from '@/components/landing-page/Footer';
+import Header from '@/components/landing-page/Header';
+import Hero from '@/components/landing-page/Hero';
+import Portability from '@/components/landing-page/Portability';
 
 export default function Home() {
   return (
-    <div className="bg-gray-100">
-      <Navbar />
+    <div className="bg-white w-full min-h-screen flex flex-col">
+      <Header />
       <Hero />
-      <Features />
+      <Portability />
       <Footer />
     </div>
   );
